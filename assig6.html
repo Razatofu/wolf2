@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>assigment6</title>
+</head>
+<body>
+    <table style="background-color: blue; width: 50%;">
+    
+    
+       <tr><td><label for="firstname"><b>FIRST NAME</b></label></td>
+       <td><input type="text" name="firstname" size="30" maxlength="30" required>(Max character 30 a-z and A-Z)</td></tr><br><br>
+       <tr><td><label for="lastname"><B>LAST NAME</B> </label></td>
+       <td><input type="text" name="lastname" size="30" maxlength="30" required>(Max character 30 a-z and A-Z)</td></tr> <br><br>
+       <tr><td><label for="birthday"  ><b>DATE OF BIRTH</b></label></td>
+        <td><input  type="number" id="" name="birthday" placeholder="day"  min="1" max="31" size="1">
+            <input  type="number" id="" name="birthday" placeholder="month"  min="1" max="12" size="1">
+            <input  type="number" id="" name="birthday" placeholder="year"  min="1900" max="2050" size="1">
+            </td></tr><br><br>
+      <tr><td> <label for="email" ><B>EMAIL ID</B> </label></td>
+       <td><input type="email" name="email"  required></td></tr><br><br>
+       <tr><td><label for="mobile"><B>MOBILE NUMBER</B></label> </td>
+        <td><input type="text" name="mobile" size="11" maxlength="11">(11 DIGIT NUMBER)</td><br><br>
+       <tr><td><label for="sex"><B>GENDER</B></label></td>
+       <td><input type="radio" name="sex" id="male" value="male">
+       <label for="male">Male</label>
+       <input type="radio" name="sex" id="female" value="female">
+       <label for="female">Female</label> 
+       </td></tr> <br><br>
+       
+       <tr><th ><label >ADDRESS</label></th>
+            <td><textarea input type="text" name="address"   cols="30" rows="4"></textarea></td></tr> <br><br>
+            <tr><td><label for="city"><B>CITY</B> </label></td>
+                <td><input type="text" name="city" size="30" maxlength="30" required>(Max character 30 a-z and A-Z)</td></tr> <br><br>
+               <tr><td><label for="pin"><b>PIN code</b></label><br>
+                <td><input type="text" id="pin" name="pin" size="6">( 6 digit code)</td><br><br>
+                
+                <tr><td><label for="state"><B>STATE</B> </label></td>
+                    <td><input type="text" name="state" size="30" maxlength="30" required>(Max character 30 a-z and A-Z)</td></tr> <br><br>
+                    <tr><td><label for="country"><b>COUNTRY</b></label></td>
+                    <TD><input type="text" name="COUNTRY" placeholder="india" size="30" maxlength="30"></TD></tr><br<br>
+                    <tr><td><label><b>HOBBIES</b></label></td>
+                   
+                    <td><label for="hobbies"> Drawing</label>
+                  <input type="checkbox" id="drawing" name="hobbies" value="drawing">
+                  <label for="singing">Singing</label>
+                  <input type="checkbox" id="singing" name="hobbies" value="singing">
+                    <label for="Dancing">Dancing</label>
+                    <input type="checkbox" id="dancing" name="hobbies" value="dancing">
+                    <label for="sketching">Sketching</label>
+                    <input type="checkbox" id="sketching" name="hobbies" value="sketching"></td></tr>
+                    <tr><td><label><b></b></label></td>
+                <td><label for="other">Other</label>
+                <input type="checkbox" id="other" name="hobbies" value="other">
+            <input type="text" id="other" name="hobbies" value="other"></td></tr>
+       </table>
+       <table style="background-color: blue; width: 50%;">
+        <td><label ><B>QUALIFICATION</B></label> </td>
+            <TD><fieldset>
+            <legend> </legend>
+            <table >
+            <tr>
+                <th>S.no</th>
+                <th >Examination</th>
+                <th >Board</th>
+                <th>Percentage</th>
+                <th>Year of Passing</th>
+                
+            </tr>
+            <tr>
+                <td>1.</td>
+                <th>Class X</th>
+                <label for="Examination"> </label>
+                <td><input type="text" name="Examination" size="10" maxlength="10"></td>
+                <label for="Board"> </label>
+                <td><input type="text" name="Board" size="10" maxlength="10"></td>
+                <label for="yop"> </label>
+                <td><input type="text" name="yop" size="10" maxlength="10"></td>
+            </tr>
+            <tr>
+                <td>2.</td>
+                <th>Class XII</th>
+                <label for="Examination"> </label>
+                <td><input type="text" name="Examination" size="10" maxlength="10"></td>
+                <label for="Board"> </label>
+                <td><input type="text" name="Board" size="10" maxlength="10"></td>
+                <label for="yop"> </label>
+                <td><input type="text" name="yop" size="10" maxlength="10"></td>
+            </tr>
+            <tr>
+                <td>3.</td>
+                <th>Graduation</th>
+                <label for="Examination"> </label>
+                <td><input type="text" name="Examination" size="10" maxlength="10"></td>
+                <label for="Board"> </label>
+                <td><input type="text" name="Board" size="10" maxlength="10"></td>
+                <label for="yop"> </label>
+                <td><input type="text" name="yop" size="10" maxlength="10"></td>
+            </tr>
+            <tr><b>
+                <td>4.</td>
+                <th>Masters</th>
+                <label for="Examination"> </label>
+                <td><input type="text" name="Examination" size="10" maxlength="10"></td>
+                <label for="Board"> </label>
+                <td><input type="text" name="Board" size="10" maxlength="10"></td>
+                <label for="yop"> </label>
+                <td><input type="text" name="yop" size="10" maxlength="10"></td></b>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td>(10 char max)</td>
+                <td>(upto 2 decimal)</td>
+                <td></td>
+            </tr>
+            </table>
+            </fieldset>
+        </td>
+        
+       
+    </table>
+       
+</body>
+</html>
